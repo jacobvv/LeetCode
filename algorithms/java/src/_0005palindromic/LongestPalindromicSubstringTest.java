@@ -7,11 +7,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class LongestPalindromicSubstringTest {
 
-    private String[] inputNumbers = new String[]{
+    private String[] inputs = new String[]{
             "babad",
             "cbbd",
     };
-    private String[][] outputResult = new String[][]{
+    private String[][] outputs = new String[][]{
             {"bab", "aba"},
             {"bb"}
     };
@@ -19,10 +19,10 @@ class LongestPalindromicSubstringTest {
     @Test
     void longestPalindrome1Test() {
         LongestPalindromicSubstring target = new LongestPalindromicSubstring();
-        for (int i = 0; i < inputNumbers.length; i++) {
+        for (int i = 0; i < inputs.length; i++) {
             boolean isOk = false;
-            for (int j = 0; j < outputResult[i].length; j++) {
-                isOk |= outputResult[i][j].equals(target.longestPalindrome1(inputNumbers[i]));
+            for (int j = 0; j < outputs[i].length; j++) {
+                isOk |= outputs[i][j].equals(target.longestPalindrome1(inputs[i]));
             }
             assertTrue(isOk);
         }

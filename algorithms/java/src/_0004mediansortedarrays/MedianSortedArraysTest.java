@@ -6,25 +6,25 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MedianSortedArraysTest {
 
-    private int[][][] inputNumbers = new int[][][]{
+    private int[][][] inputs = new int[][][]{
             {{1,3},{2}},
             {{1, 2}, {3, 4}},
     };
-    private double[] outputResult = new double[]{2.0, 2.5};
+    private double[] outputs = new double[]{2.0, 2.5};
 
     @Test
     void findMedianSortedArrays1Test() {
-        for (int i = 0; i < inputNumbers.length; i++) {
-            assertEquals(outputResult[i],
-                    new MedianSortedArrays().findMedianSortedArrays1(inputNumbers[i][0], inputNumbers[i][1]));
+        for (int i = 0; i < inputs.length; i++) {
+            assertEquals(outputs[i],
+                    new MedianSortedArrays().findMedianSortedArrays1(inputs[i][0], inputs[i][1]));
         }
     }
 
     @Test
     void findMedianSortedArrays2Test() {
-        for (int i = 0; i < inputNumbers.length; i++) {
-            assertEquals(outputResult[i],
-                    new MedianSortedArrays().findMedianSortedArrays2(inputNumbers[i][0], inputNumbers[i][1]));
+        for (int i = 0; i < inputs.length; i++) {
+            assertEquals(outputs[i],
+                    new MedianSortedArrays().findMedianSortedArrays2(inputs[i][0], inputs[i][1]));
         }
     }
 
