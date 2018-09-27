@@ -13,7 +13,7 @@ class MedianSortedArraysTest {
     private double[] outputResult = new double[]{2.0, 2.5};
 
     @Test
-    void twoSum1Test() {
+    void findMedianSortedArrays1Test() {
         for (int i = 0; i < inputNumbers.length; i++) {
             assertEquals(outputResult[i],
                     new MedianSortedArrays().findMedianSortedArrays1(inputNumbers[i][0], inputNumbers[i][1]));
@@ -21,7 +21,7 @@ class MedianSortedArraysTest {
     }
 
     @Test
-    void twoSum2Test() {
+    void findMedianSortedArrays2Test() {
         for (int i = 0; i < inputNumbers.length; i++) {
             assertEquals(outputResult[i],
                     new MedianSortedArrays().findMedianSortedArrays2(inputNumbers[i][0], inputNumbers[i][1]));
