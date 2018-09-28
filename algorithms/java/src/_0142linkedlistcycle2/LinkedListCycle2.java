@@ -33,4 +33,27 @@ public class LinkedListCycle2 {
         return head;
     }
 
+    public ListNode detectCycle2(ListNode head) {
+        // 使用速度差1的两个指针进行遍历，若再次相遇则一定有环，并且可以通过计算得知，环起始点距离交点和头节点的距离是一样的。
+        // 时间复杂度O(n)，空间复杂度O(1)
+        if (head == null || head.next == null) {
+            return null;
+        }
+        ListNode front = head;
+        ListNode rear = head;
+        do {
+            if (front == null || front.next == null) {
+                return null;
+            }
+            rear = rear.next;
+            front = front.next.next;
+        } while (rear != front);
+        front = head;
+        while (front != rear) {
+            front = front.next;
+            rear = rear.next;
+        }
+        return front;
+    }
+
 }

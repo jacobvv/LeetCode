@@ -48,4 +48,12 @@ class LinkedListCycle2Test {
         }
     }
 
+    @Test
+    void detectCycle2Test() {
+        LinkedListCycle2 target = new LinkedListCycle2();
+        for (int i = 0; i < inputs.length; i++) {
+            assertEquals(outputs[i], target.detectCycle2(inputs[i]));
+        }
+    }
+
 }
