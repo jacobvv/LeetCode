@@ -1,3 +1,5 @@
+package jacobvv._0004mediansortedarrays;
+
 /**
  * Source: https://leetcode.com/problems/median-of-two-sorted-arrays/
  * Source(zh): https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
@@ -24,9 +26,6 @@
  * <p>
  * 中位数是 (2 + 3)/2 = 2.5
  */
-
-package _0004mediansortedarrays;
-
 public class MedianSortedArrays {
 
     public double findMedianSortedArrays1(int[] nums1, int[] nums2) {

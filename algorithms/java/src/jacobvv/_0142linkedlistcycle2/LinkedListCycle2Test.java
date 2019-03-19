@@ -1,4 +1,4 @@
-package _0142linkedlistcycle2;
+package jacobvv._0142linkedlistcycle2;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

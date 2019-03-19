@@ -1,3 +1,7 @@
+package jacobvv._0142linkedlistcycle2;
+
+import java.util.HashMap;
+
 /**
  * Source: https://leetcode.com/problems/linked-list-cycle-ii/
  * Source(zh): https://leetcode-cn.com/problems/linked-list-cycle-ii/
@@ -12,11 +16,6 @@
  * 进阶：
  * 你是否可以不用额外空间解决此题？
  */
-
-package _0142linkedlistcycle2;
-
-import java.util.HashMap;
-
 public class LinkedListCycle2 {
 
     public ListNode detectCycle1(ListNode head) {

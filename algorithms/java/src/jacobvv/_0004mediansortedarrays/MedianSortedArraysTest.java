@@ -1,4 +1,4 @@
-package _0004mediansortedarrays;
+package jacobvv._0004mediansortedarrays;
 
 import org.junit.jupiter.api.Test;
 

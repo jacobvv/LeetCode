@@ -1,3 +1,9 @@
+package jacobvv._0001twosum;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Source : https://leetcode.com/problems/two-sum/
  * Source(zh) : https://leetcode-cn.com/problems/two-sum/
@@ -27,13 +33,6 @@
  * 因为 nums[0] + nums[1] = 2 + 7 = 9
  * 所以返回 [0, 1]
  */
-
-package _0001twosum;
-
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
 class TwoSum {
 
     public int[] twoSum1(int[] nums, int target) {

@@ -1,3 +1,5 @@
+package jacobvv._0008atoi;
+
 /**
  * Source: https://leetcode.com/problems/longest-palindromic-substring/
  * Source(zh): https://leetcode-cn.com/problems/longest-palindromic-substring/
@@ -17,9 +19,6 @@
  * 输入: "cbbd"
  * 输出: "bb"
  */
-
-package _0008atoi;
-
 public class Atoi {
 
     public static final char[] DIGITAL = {'+', '-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};

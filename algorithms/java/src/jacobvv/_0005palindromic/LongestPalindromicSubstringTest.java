@@ -1,4 +1,4 @@
-package _0005palindromic;
+package jacobvv._0005palindromic;
 
 import org.junit.jupiter.api.Test;
 

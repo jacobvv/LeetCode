@@ -1,3 +1,5 @@
+package jacobvv._0005palindromic;
+
 /**
  * Source: https://leetcode.com/problems/longest-palindromic-substring/
  * Source(zh): https://leetcode-cn.com/problems/longest-palindromic-substring/
@@ -17,9 +19,6 @@
  * 输入: "cbbd"
  * 输出: "bb"
  */
-
-package _0005palindromic;
-
 public class LongestPalindromicSubstring {
 
     private boolean isPalindromic(String s) {

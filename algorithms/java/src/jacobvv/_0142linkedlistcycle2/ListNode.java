@@ -1,7 +1,7 @@
-package _0142linkedlistcycle2;
+package jacobvv._0142linkedlistcycle2;
 
 public class ListNode {
-    int val;
+    private int val;
     ListNode next;
 
     ListNode(int x) {
